@@ -1,5 +1,7 @@
 # Vue Js training
 
+## for quick spinning up vue server use this https://stackblitz.com/ website.
+
 ## pre-requisite -
 
 > - these versions of node and npm should be installed
@@ -51,4 +53,4 @@ commands -
 		this will load index.html file in public folder
 ```
 
-## for quick spinning up vue server use this https://stackblitz.com/ website.
+> - for template syntax doc https://vuejs.org/guide/essentials/template-syntax.html
