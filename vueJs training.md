@@ -36,3 +36,19 @@ commands -
 
 		$ vue --version -> @vue/cli 4.5.19
 ```
+
+> - Run command to create a project 'vue-app'-
+
+```
+    	$ vue create vue-app
+```
+
+> - open vue-app folder and run command -
+
+```
+		$ npm run serve
+
+		this will load index.html file in public folder
+```
+
+## for quick spinning up vue server use this https://stackblitz.com/ website.
