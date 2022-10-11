@@ -56,3 +56,11 @@ commands -
 > - for template syntax doc https://vuejs.org/guide/essentials/template-syntax.html
 
 > - for bootstrap html CDN link tag - https://cdnjs.com/libraries/bootstrap
+
+## DAY - 1 Exercise
+
+> - BootStrap examples https://getbootstrap.com/docs/5.2/examples/
+
+> - mimic this nav bar example in vue-app https://getbootstrap.com/docs/5.2/examples/navbar-static/
+
+> - mimic this pricing page in vue-app https://getbootstrap.com/docs/5.2/examples/pricing/
