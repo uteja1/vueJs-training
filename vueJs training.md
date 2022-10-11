@@ -55,4 +55,4 @@ commands -
 
 > - for template syntax doc https://vuejs.org/guide/essentials/template-syntax.html
 
-> - for bootstrap html link tag - https://cdnjs.com/libraries/bootstrap
+> - for bootstrap html CDN link tag - https://cdnjs.com/libraries/bootstrap
