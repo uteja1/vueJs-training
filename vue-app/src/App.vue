@@ -8,6 +8,9 @@
 
   <p v-for="(value, key , index) in person" :key="key">{{key}} :: {{value}} @ {{index}}</p>
 
+
+  <p> {{fullName}}</p>
+
 </template>
 
 <script lang="ts">  
@@ -24,9 +27,9 @@ export default defineComponent({
       }
     } 
   },
-  methods: {
-    handleClick: function (e: any) {
-      this.counter++;
+  computed: {
+    fullName: function () {
+      return this.person.firstName + " " + this.person.lastName
     }
   }
 });
