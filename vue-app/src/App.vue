@@ -1,6 +1,8 @@
 <template>
-  <h3>Learning Vue 3</h3>
-  <Sample />
+  <div class="container p-5">
+    <h3>Learning Vue 3</h3>
+    <Sample firstName="uday" lastname="k" city="bang"/>
+  </div>
 </template>
 
 <script lang="ts">
