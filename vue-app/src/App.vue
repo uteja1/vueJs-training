@@ -1,5 +1,5 @@
 <template>
-  <div class="container py-3">
+  <!-- <div class="container py-3">
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
       <symbol id="check" viewBox="0 0 16 16">
         <title>Check</title>
@@ -15,6 +15,13 @@
     </main>
 
     <Footer></Footer>
+  </div> -->
+
+  <div class="container p-5">
+    <h3>vue</h3>
+    <p v-bind="allAttributes">hi dude</p>
+
+    <Demo></Demo>
   </div>
 </template>
 
@@ -22,16 +29,27 @@
 import { defineComponent } from 'vue';
 import Jumbotron from './components/Jumbotron.vue';
 import Navbar from './components/Navbar.vue';
-import Table from './components/Table.vue'
-import Footer from './components/Footer.vue'
+import Table from './components/Table.vue';
+import Footer from './components/Footer.vue';
+import Demo from './components/Demo.vue'
 
 export default defineComponent({
   name: 'App',
+  data() {
+    return {
+      allAttributes: {
+        id: "34-df",
+        class: "fun class",
+        gh456: "custom"
+      }
+    }
+  },
   components: {
     Jumbotron,
     Navbar,
     Table,
-    Footer
+    Footer,
+    Demo
   }
 });
 </script>
