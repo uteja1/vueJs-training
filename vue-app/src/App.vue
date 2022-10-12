@@ -20,7 +20,7 @@
   <div class="container p-5">
     <h3>vue</h3>
     <p v-bind="allAttributes">hi dude</p>
-
+    <p v-html="fooData"></p>
     <Demo></Demo>
   </div>
 </template>
@@ -41,7 +41,13 @@ export default defineComponent({
         id: "34-df",
         class: "fun class",
         gh456: "custom"
-      }
+      },
+      fooData: '<h3> vue sdf </h3>'
+    }
+  },
+  methods: {
+    foo() {
+      return "hi"
     }
   },
   components: {
