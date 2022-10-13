@@ -1,43 +1,51 @@
 <template>
   <div class="container p-5">
-    <h3>Learning Vue {{ counter }}</h3>
-    <button class="btn btn-primary" @click="increment">Increment</button>
+    <h3>Learning Vue </h3>
+    <pre>{{res}}</pre>
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'App',
   data() {
     return {
-      counter: 0,
+      res: {},
     };
   },
-  methods: {
-    increment() {
-      ++this.counter;
-    },
-  },
-  beforeCreate() {
-    console.log('beforeCreate', this.counter);
-  },
-  created() {
-    console.log('created', this.counter);
-  },
-  beforeMount() {
-    console.log('beforeMount');
-  },
+
   mounted() {
-    console.log('mounted');
-  },
-  beforeUpdate() {
-    console.log('beforeUpdate', this.counter);
-  },
-  updated() {
-    console.log('updated', this.counter);
-  },
+    // this.$http1.get('users')
+    //   .then(r => {
+    //     this.res = r.data;
+    //   });
+    // this.$http1
+    //   .post('users', {
+    //     id: 2,
+    //     email: 'janet.weaver@reqres.in',
+    //     first_name: 'Janet',
+    //     last_name: 'Weaver',
+    //     avatar: 'https://reqres.in/img/faces/2-image.jpg',
+    //   })
+    //   .then((r) => {
+    //     this.res = r.data;
+    //   });
+
+    this.$http1
+      .put('user/2', {
+        id: 2,
+        email: 'janet.weaver@reqres.in',
+        first_name: 'Janet',
+        last_name: 'Weaver',
+        avatar: 'https://reqres.in/img/faces/2-image.jpg',
+      })
+      .then((r) => {
+        this.res = r.data;
+      });
+
+  }
 });
 </script>
 

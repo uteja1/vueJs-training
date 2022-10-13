@@ -74,3 +74,7 @@ commands -
 > - Import modules - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import
 
 > - Route Configuration Example app - https://github.com/uteja1/cl-vue-b2-day3/blob/04-route-configuration-1/src/router/index.js (check out the other branches in it.)
+
+## DAY - 4 Exercise
+
+> - JavaScript I/O callBack loads - https://heynode.com/tutorial/explore-io-callbacks-phase-nodejs-event-loop/
