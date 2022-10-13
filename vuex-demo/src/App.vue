@@ -16,10 +16,10 @@ export default {
   },
   methods: {
     inc() {
-      this.$store.commit('increment');
+      this.$store.dispatch('asyncIncrement');
     },
     dec() {
-      this.$store.commit('decrement');
+      this.$store.dispatch('asyncDecrement');
     },
   },
 };

@@ -14,6 +14,18 @@ export default createStore({
       --state.counter;
     },
   },
-  actions: {},
+  actions: {
+    asyncIncrement(context) {
+      setTimeout(() => {
+        context.commit('increment');
+      }, 500);
+    },
+
+    asyncDecrement(context) {
+      setTimeout(() => {
+        context.commit('decrement');
+      }, 500);
+    },
+  },
   modules: {},
 });
