@@ -57,10 +57,20 @@ commands -
 
 > - for bootstrap html CDN link tag - https://cdnjs.com/libraries/bootstrap
 
-## DAY - 1 Exercise
+## DAY - 2 Exercise
 
 > - BootStrap examples https://getbootstrap.com/docs/5.2/examples/
 
 > - mimic this nav bar example in vue-app https://getbootstrap.com/docs/5.2/examples/navbar-static/
 
 > - mimic this pricing page in vue-app https://getbootstrap.com/docs/5.2/examples/pricing/
+
+## DAY - 3 Exercise
+
+> - LifeCycle hooks - https://vuejs.org/guide/essentials/lifecycle.html#registering-lifecycle-hooks
+
+> - javaScript framework dirty checking - https://blog.risingstack.com/writing-a-javascript-framework-data-binding-dirty-checking/
+
+> - Import modules - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import
+
+> - Route Configuration Example app - https://github.com/uteja1/cl-vue-b2-day3/blob/04-route-configuration-1/src/router/index.js (check out the other branches in it.)
