@@ -16,11 +16,17 @@ const axiosInstance2 = axios.create({
 
 });
 
+const axiosInstance3 = axios.create({
+  baseURL: 'https://jsonplaceholder.typicode.com/',
+});
+
+
 createApp(App)
     .use({
         install(app) {
             app.config.globalProperties.$http1 = axiosInstance1;
             app.config.globalProperties.$http2 = axiosInstance2;
+            app.config.globalProperties.$http3 = axiosInstance3;
         },
     })
     .mount('#app')

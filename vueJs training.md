@@ -78,3 +78,5 @@ commands -
 ## DAY - 4 Exercise
 
 > - JavaScript I/O callBack loads - https://heynode.com/tutorial/explore-io-callbacks-phase-nodejs-event-loop/
+
+> - axios configuration and use example app - https://github.com/uteja1/vue3-http-study (check out the branches)

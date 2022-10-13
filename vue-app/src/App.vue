@@ -16,36 +16,25 @@ export default defineComponent({
     };
   },
 
-  mounted() {
-    // this.$http1.get('users')
-    //   .then(r => {
-    //     this.res = r.data;
-    //   });
-    // this.$http1
-    //   .post('users', {
-    //     id: 2,
-    //     email: 'janet.weaver@reqres.in',
-    //     first_name: 'Janet',
-    //     last_name: 'Weaver',
-    //     avatar: 'https://reqres.in/img/faces/2-image.jpg',
-    //   })
-    //   .then((r) => {
-    //     this.res = r.data;
-    //   });
+  async mounted() {
+    try {
+      this.res = await this.$http.get('todos/3');
+    } catch (e) {
+      this.res = 'data is missing...';
+    }
+  },
 
-    this.$http1
-      .put('user/2', {
-        id: 2,
-        email: 'janet.weaver@reqres.in',
-        first_name: 'Janet',
-        last_name: 'Weaver',
-        avatar: 'https://reqres.in/img/faces/2-image.jpg',
-      })
-      .then((r) => {
-        this.res = r.data;
-      });
+  // mounted() {
+  //   this.$http
+  //     .get('todos/32111')
+  //     .then((r) => (this.res = r.data))
+  //     .catch((error) => {
+  //       console.log('Error!', error.message);
+  //       this.res = 'data is missing....';
+  //     });
+  //   }
+ 
 
-  }
 });
 </script>
 
