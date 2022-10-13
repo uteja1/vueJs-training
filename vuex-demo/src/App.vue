@@ -2,10 +2,12 @@
   <h3>Hello Vue 3 ---> {{ appCounter }}</h3>
   <button @click="inc">Increment</button>
   <button @click="dec">Decrement</button>
+  <p> {{ firstName }} , {{ city }} , {{ counter }} </p>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue';
+import { mapGetters } from 'vuex';
 
 export default {
   name: 'App',
@@ -22,6 +24,10 @@ export default {
       this.$store.dispatch('asyncDecrement');
     },
   },
+  computed: {
+    ...mapGetters(['counter', 'firstName', 'city']),
+  },
+
 };
 </script>
 

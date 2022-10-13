@@ -4,6 +4,8 @@ export default createStore({
   state() {
     return {
       counter: 0,
+      firstName: 'Sunil',
+      city: 'Pune',
     };
   },
   mutations: {
@@ -25,6 +27,17 @@ export default createStore({
       setTimeout(() => {
         context.commit('decrement');
       }, 500);
+    },
+  },
+  getters: {
+    counter(state) {
+      return state.counter;
+    },
+    firstName(state) {
+      return state.firstName;
+    },
+    city(state) {
+      return state.city;
     },
   },
   modules: {},
