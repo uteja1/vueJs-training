@@ -79,4 +79,12 @@ commands -
 
 > - JavaScript I/O callBack loads - https://heynode.com/tutorial/explore-io-callbacks-phase-nodejs-event-loop/
 
-> - axios configuration and use example app - https://github.com/uteja1/vue3-http-study (check out the branches)
+> - Async reference - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+
+> - Promise reference - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+> - Axios configuration and use example app - https://github.com/uteja1/vue3-http-study (check out the branches)
+
+> - Pinia state management library - https://pinia.vuejs.org/introduction.html
+
+> - Vuex state management library - https://vuex.vuejs.org/
