@@ -88,3 +88,5 @@ commands -
 > - Pinia state management library - https://pinia.vuejs.org/introduction.html
 
 > - Vuex state management library - https://vuex.vuejs.org/
+
+> - FakeData from REQRES API - https://reqres.in/
