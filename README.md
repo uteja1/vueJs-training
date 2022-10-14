@@ -45,6 +45,17 @@ commands -
     	$ vue create vue-app
 ```
 
+```
+		Select these options while building a new vue-app :
+
+		? Please pick a preset: Manually select features
+		? Check the features needed for your project: Choose Vue version, Babel
+		? Choose a version of Vue.js that you want to start the project with 3.x
+		? Where do you prefer placing config for Babel, ESLint, etc.? In dedicated config files
+		? Save this as a preset for future projects? No
+
+```
+
 > - open vue-app folder and run command -
 
 ```
@@ -90,3 +101,11 @@ commands -
 > - Vuex state management library - https://vuex.vuejs.org/
 
 > - FakeData from REQRES API - https://reqres.in/
+
+## DAY 5 - Exercise
+
+> - Different input types - https://www.w3schools.com/html/html_form_input_types.asp
+
+> - Form Demo app - https://github.com/uteja1/cl-b2-day4-form (check out the branches)
+
+> - Vuetify is component library for vue - https://vuetifyjs.com/en/introduction/why-vuetify/#getting-started

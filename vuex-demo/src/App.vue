@@ -23,6 +23,9 @@ export default {
     dec() {
       this.$store.dispatch('asyncDecrement');
     },
+    inc1() {
+      this.$store.commit('increment');
+    },
   },
   computed: {
     ...mapGetters(['counter', 'firstName', 'city']),

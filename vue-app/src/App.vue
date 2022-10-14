@@ -1,7 +1,7 @@
 <template>
   <div class="container p-5">
     <h3>Learning Vue </h3>
-    <pre>{{res}}</pre>
+    <pre>{{res.data}}</pre>
   </div>
 </template>
 
@@ -18,7 +18,7 @@ export default defineComponent({
 
   async mounted() {
     try {
-      this.res = await this.$http.get('todos/3');
+      this.res = await this.$http3.get('todos/3');
     } catch (e) {
       this.res = 'data is missing...';
     }
