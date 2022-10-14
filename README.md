@@ -109,3 +109,15 @@ commands -
 > - Form Demo app - https://github.com/uteja1/cl-b2-day4-form (check out the branches)
 
 > - Vuetify is component library for vue - https://vuetifyjs.com/en/introduction/why-vuetify/#getting-started
+
+> - Forms problem and solving them -
+
+```
+    		https://youtu.be/oiNtnehlaTo
+
+			formik - form library for react
+    		https://formik.org/docs/overview
+
+			formKit - form library for vue
+			https://formkit.com/
+```
